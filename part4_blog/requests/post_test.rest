@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvcm1hIiwiaWQiOiI1ZjZiNTlkNjhjYTVlNjNkMjBjYmE2ZmIiLCJpYXQiOjE2MDA4NzA4ODR9.47IPcnyCcQ5QjjHFksF46cHZ4RkIK6MU-CKqKpJyC20
+
+{
+    "title": "blog_with_auth_2",
+    "author": "mika_23",
+    "url": "http://www.je.fi",
+    "likes": 1000    
+}
